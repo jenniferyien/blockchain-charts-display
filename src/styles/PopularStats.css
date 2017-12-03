@@ -1,0 +1,56 @@
+.popular-stats, .stat {
+  text-align: center;
+}
+
+.popular-stats .stat a {
+  color: #fff;
+}
+
+.popular-stats .stat a:hover {
+  color: #799eb2;
+}
+
+.popular-stats .stat-section {
+  background-color: #27324b;
+  text-align: right;
+  padding: 15px 25px;
+  font-size: 28px;
+}
+
+.popular-stats .stat-section span {
+  display: block;
+  font-size: 14px;
+  text-align: right;
+}
+
+.popular-stats .section-title {
+  padding: 15px;
+}
+
+.popular-stats .stat-section h5 {
+  text-align: left;
+}
+
+.popular-stats .btn {
+  color: #004a7c;
+  margin: 15px auto;
+  border: 1px solid #004a7c;
+  border-radius: 0px;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: none;
+  padding: 10px 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.popular-stats .btn:hover {
+  border: 1px solid #337ab7;
+  color: #337ab7;
+}
+
+@media (max-width: 768px) {
+  .popular-stats .stat-section {
+    margin-bottom: 15px;
+  }
+}

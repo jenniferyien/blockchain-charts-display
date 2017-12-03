@@ -1,0 +1,60 @@
+.app {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  background-color: whitesmoke;
+  color: #5f5f5f;
+  overflow: hidden;
+}
+
+a {
+  color: #004a7c;
+}
+
+a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.app .app-title {
+  padding: 25px 0;
+}
+
+.app .app-title h1 {
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 0 15px;
+  border-bottom: 3px solid #5f5f5f;
+}
+
+.app .app-title p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.app .app-charts {
+  background-color: #fff;
+  margin: 50px 0 0;
+}
+
+.app .app-nav {
+  padding: 50px 0 0;
+}
+
+.app .app-display {
+  border-left: 1px solid #ddd;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .app .app-title h1 {
+    font-size: 28px;
+  }
+  .app .app-charts {
+    margin: 15px 0 0;
+  }
+  .app .app-nav {
+    padding: 30px 0;
+  }
+  .app .app-display {
+    border-left: none;
+  }
+}

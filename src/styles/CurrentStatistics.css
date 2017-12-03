@@ -1,0 +1,36 @@
+.current-stats .chart-section {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  margin: 25px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.current-stats .chart-section:last-child {
+  border-bottom: none;
+}
+
+.current-stats .chart-section h5 {
+  text-transform: capitalize;
+  font-size: 21px;
+}
+
+.current-stats .chart-section p {
+  font-size: 14px;
+}
+
+.current-stats .stat-chart {
+  padding-bottom: 25%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .current-stats .chart-section {
+    flex-direction: column;
+  }
+  .current-stats .stat-chart {
+    padding-bottom: 75%;
+  }
+}

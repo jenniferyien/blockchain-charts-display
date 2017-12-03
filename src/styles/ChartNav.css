@@ -1,0 +1,20 @@
+.chart-section-nav ul {
+  padding: 0;
+}
+
+.chart-section-nav ul li {
+  list-style: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 5px 0;
+}
+
+.chart-section-nav ul li.active {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .chart-section-nav ul li {
+    text-align: center;
+  }
+}
